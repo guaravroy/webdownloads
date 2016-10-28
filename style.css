@@ -289,7 +289,8 @@ nav ul li a:hover {
 }
 
 img.header-image { padding-top: 10px;
-			margin-bottom: -3px; }
+			margin-bottom: -3px; 
+width: 50%;}
 
 #body {
 	background: #fff;
