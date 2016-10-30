@@ -1,4 +1,1 @@
 User-Agent: *
-Disallow: 
-
-Sitemap: http://www.websearchdownloads.com/sitemap.xml
