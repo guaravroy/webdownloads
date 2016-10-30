@@ -1,0 +1,4 @@
+#Force non-www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^http://www.websearchdownloads.com/ [NC]
+RewriteRule ^(.*)$ http://websearchdownloads.com//$1 [L,R=301]
