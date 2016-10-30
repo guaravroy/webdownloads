@@ -17,6 +17,7 @@
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="game.css" type="text/css" />
 <link rel="alternate" href="http://www.websearchdownloads.com/tw.html" hreflang="en-us" />
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,7 +36,8 @@ License: Creative Commons Attribution
   ga('create', 'UA-86170818-1', 'auto');
   ga('send', 'pageview');
 </script>
-
+<script type="text/javascript" src="jquery-1.11.0.js"></script>
+<script src="game.js"type="text/javascript"></script>
 </head>
 <body>
 <div id="container" class="sidemargin">
@@ -176,7 +178,36 @@ It is an ultimate tech blog for ever web user. Tech is main part of this blog. F
                 </li>-->
                 
             </ul>
-		
+		<div id="game-wrap">
+
+	
+	<div class="row">
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+	</div>
+
+	<div class="row">
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+	</div>
+
+	<div class="row">
+		<div class="col"></div>
+		<div class="col"></div>
+		<div class="col"></div>
+	</div>
+
+</div>
+
+<div id="panel">
+	<input type="text" id="player-1-inp" placeholder="Enter player 1" size="10">
+	<input type="text" id="player-2-inp" placeholder="Enter player 2" size="10">
+	<input type="button" id="playButton" value="play">
+	<h1 id="board"></h1>
+</div>
+<p style="margin-left:100px;font-weight: bold;"> play Tic-Tac-Toe game<p>
         </aside>
     	<div class="clear"></div>
     </div>
