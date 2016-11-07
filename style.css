@@ -383,7 +383,8 @@ article .article-info a {
 
 
 .sidebar li ul li a {
-	font-weight: normal;
+	font-weight: bold;
+	font-size:1.5em;
 	color: #666;
 }
 
